@@ -1,0 +1,20 @@
+name: PrimeCore
+author: PrimeAPI
+version: ${project.version}
+main: net.goldgruben.paperapi.GoldCore
+softdepend:
+  - PlaceholderAPI
+  - CloudNet-Bridge
+  - CloudNetAPI
+  - Vault
+commands:
+  coins:
+  afk:
+  primecore:
+    aliases:
+      - paperapi
+load: STARTUP
+loadbefore:
+  - PrimePermissionsSystem
+  - LobbySystem
+  - MLGRush
